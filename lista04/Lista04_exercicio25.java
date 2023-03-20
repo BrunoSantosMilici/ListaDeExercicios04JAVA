@@ -12,7 +12,7 @@ public class Lista04_exercicio25 {
 		
 		System.out.println("Quantos morangos foram comprados?");
 		int quantMor = sc.nextInt();
-		System.out.println("Quantas maças foram compradas?");
+		System.out.println("Quantas maÃ§as foram compradas?");
 		int quantMac = sc.nextInt();
 		
 		int soma = quantMor + quantMac;
@@ -31,11 +31,11 @@ public class Lista04_exercicio25 {
 		
 		float valorT = precoMac + precoMor;
 		
-		if (soma < 8 || valorT >25) {
+		if (soma > 8 || valorT >25) {
 			float desconto = (float) (0.10 * valorT);
 			valorT -= desconto; 
 		}
-		System.out.println("O valor total é: " + valorT + " R$");
+		System.out.println("O valor total Ã©: " + valorT + " R$");
 		}
 		
 	}
